@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kostas Kotsis Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                <strong>Basketball Scoreboard</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">A scoreboard for basketball games. </p>
+            <img src="img/portfolio-03.jpg" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>This project is part of the Frontend Developer Career Path solo projects from <a href="https://scrimba.com/learn/frontend" class="other-links">Scrimba</a>.
+                I started with the HTML markup for the structure and CSS combined with CSS Flexbox and CSS Grid for styling and for the layout. Finally, I wrote the code in the javascript file 
+                with functions that implement the points and DOM manipulation for adding those points to the corresponding team and keep track of the leading team.
+The Figma prototype for this project is <a href="https://www.figma.com/file/YC48MCx4frBFtYoz6rNJE6/Basketball-Scoreboard?node-id=0%3A1" class="other-links">here </a> </p>
+                <div class="project-img-wrapper">
+                    <img src="img/portfolio-03.jpg" alt="" class="project_img">
+                    <img src="img/portfolio-03-active-state.jpg" alt="" class="project_img">
+                </div>
+            <p>The user can add points that range from 1 to 3 by clicking the button points, see which team is ahead in the score because the leading team is highlighted, and restart the game 
+                whenever he wants by clicking the New Game button.</p>
+                 <div class="wrapper">
+            <a href="https://zitsko.github.io/Basketball-Scoreboard-Scrimba-Solo-Project/" class="btn"> Live site </a>
+            <a href="https://github.com/zitsko/Basketball-Scoreboard-Scrimba-Solo-Project" class="btn"> Source Code</a>
+                </div>
+        </div>
+        
+        
+   <!-- Footer -->
+   <footer class="footer">
+    <a href="mailto:kostaskotsis87@gmail.com" class="footer__link">kostaskotsis87@gmail.com</a>
+    <ul class="social-list">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://www.linkedin.com/in/kostas-kotsis-b9595091/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/zitsko" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+    </ul>
+</footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
