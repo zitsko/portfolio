@@ -1,113 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kostas Kotsis Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/style.css">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kostas Kotsis Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
 
-    </head>
-    <body>
-        <header>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <!-- Introduction -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Kostas Kotsis</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-            <img src="img/profile-pic.png" alt="a picture of Jane Smith smiling" class="intro__img">
-        </section>
-         
-        <!-- About me -->
-        <section class="about-me" id="about">
-            <div class="about-me-text">
-                <h2 class="section__title section__title--about">Who I am</h2>
-                <p class="section__subtitle section__subtitle--about">Front End Developer & Physics Teacher </p>
-                
-                <div class="about-me__body">
-                    <p>My introduction to coding and web development started when a friend of mine needed a website for his small business, 
-                        which we decided to collaborate by building it with WordPress. Although my current occupation is physics teacher in a cram school, 
-                        I've built two more websites with WordPress. Then I realized that I wanted to build websites more personalized, so I started learning 
-                        front end development by participating in The Frontend Developer Career Path by Scrimba where I also tested my skills in 
-                        building web applications by completing their solo projects challenges.  </p>
-                    <p>I currently seek for a job in front end web development, with willingness and the ability to learn any technology is used by your team! 
-                       <br> My technologies and skills are JavaScript, HTML, CSS and WordPress. 
-                    </p>
-                </div>
-            </div>
-        </section>
-        
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My work</h2>
-            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-            
-            <div class="portfolio">
-                <!-- Portfolio item 01 -->
-                <a href="portfolio-item.html" class="portfolio__item" target="_blank" >
-                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 02 -->
-                <a href="portfolio-item-02.html" class="portfolio__item" target="_blank">
-                    <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 03 -->
-                <a href="portfolio-item-03.html" class="portfolio__item" target="_blank">
-                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 04 -->
-                <a href="portfolio-item-04.html" class="portfolio__item" target="_blank">
-                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
-                </a>
-                
-            
-                <!-- <a href="portfolio-item-05.html" class="portfolio__item" target="_blank">
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Kostas Kotsis</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img
+        src="img/profile-pic.png"
+        alt="a picture of Jane Smith smiling"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <div class="about-me-text">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">
+          Front End Developer & Physics Teacher
+        </p>
+
+        <div class="about-me__body">
+          <p>
+            I graduated from a very demanding full stack developer bootcamp at
+            Codecademy, where I learned how to use the MERN stack and other web
+            development tools. The bootcamp was an intensive and rewarding
+            experience that taught me how to work under pressure, meet
+            deadlines, and collaborate with other developers. I also like to
+            learn to code on my own, using online resources, books, and courses.
+            I enjoy discovering new frameworks, libraries, and APIs that can
+            help me create better websites and applicationsMy introduction to
+            coding and web development started when a friend of mine needed a
+            website for his small business, which we decided to collaborate by
+            building it with WordPress. Although my current occupation is
+            physics teacher in a cram school, I've built two more websites with
+            WordPress. Then I realized that I wanted to build websites more
+            personalized, so I started learning front end development by
+            participating in The Frontend Developer Career Path by Scrimba where
+            I also tested my skills in building web applications by completing
+            their solo projects challenges.
+          </p>
+          <p>
+            I currently seek for a job in front end web development, with
+            willingness and the ability to learn any technology is used by your
+            team! <br />
+            My technologies and skills are JavaScript, HTML, CSS and WordPress.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="portfolio-item.html" class="portfolio__item" target="_blank">
+          <img src="img/portfolio-01.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a
+          href="portfolio-item-02.html"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img src="img/portfolio-02.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a
+          href="portfolio-item-03.html"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img src="img/portfolio-03.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 04 -->
+        <a
+          href="portfolio-item-04.html"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img src="img/portfolio-04.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- <a href="portfolio-item-05.html" class="portfolio__item" target="_blank">
                     <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
                 </a>
                  -->
-            </div>
-        </section>
-        
-        
-        <!-- Footer -->
-        <footer class="footer">
-            <a href="mailto:kostaskotsis87@gmail.com" class="footer__link">kostaskotsis87@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/kostas-kotsis-b9595091/" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/zitsko" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-            </ul>
-        </footer>
-        
-        
-        <script src="js/index.js"></script>
-        
-    </body>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:kostaskotsis87@gmail.com" class="footer__link"
+        >kostaskotsis87@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/kostas-kotsis-b9595091/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/zitsko"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
 </html>
