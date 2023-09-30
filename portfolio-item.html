@@ -1,77 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kostas Kotsis Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/style.css">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kostas Kotsis Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
 
-    </head>
-    <body>
-        <header>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
-        </header>
-        
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
 
-        <section class="intro">
-            <h1 class="section__title section__title--intro">
-                <strong>Password Generator</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">A generator for  random passwords. </p>
-            <img src="img/portfolio-01.jpg" alt="" class="intro__img">
-        </section>
-        
-        <div class="portfolio-item-individual">
-            <p>This project is part of the Frontend Developer Career Path solo projects from <a href="https://scrimba.com/learn/frontend" class="other-links">Scrimba</a>.
-                I began with processing the  <a href="https://www.figma.com/file/NEj9JDycMjF3XKXq7swoc9/Random-Password-Generator-(New-version)?node-id=0%3A1" class="other-links">Figma prototype</a> for this project and 
-                then writing the HTML markup and CSS combined with CSS Flexbox.  Then I manipulated the button for generating two random passwords and the input field for setting the desired length from
-                 the user  with JavaScript and DOM, after creating the necessary functions in the JavaScript file.  </p>
-                <div class="project-img-wrapper">
-                    <img src="img/portfolio-01.jpg" alt="" class="project_img">
-                    <img src="img/portfolio-01-active-state.jpg" alt="" class="project_img">
-                </div>
-            <p>When the user clicks on the Generate Passwords button, two random passwords appear, which the user can copy instantly to the clipboard just by clicking them. Also, the user has the ability
-                 to set the length of the passwords by inserting a number of his choice in the set password length input area and clear the input field by refreshing the page.</p>
-                 <div class="wrapper">
-            <a href="https://zitsko.github.io/Password-Generator-Scrimba-Solo-Project/" class="btn"> Live site </a>
-            <a href="https://github.com/zitsko/Password-Generator-Scrimba-Solo-Project" class="btn"> Source Code</a>
-                </div>
-        </div>
-        
-        
-      <!-- Footer -->
-      <footer class="footer">
-        <a href="mailto:kostaskotsis87@gmail.com" class="footer__link">kostaskotsis87@gmail.com</a>
-        <ul class="social-list">
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://www.linkedin.com/in/kostas-kotsis-b9595091/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com/zitsko" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
         </ul>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        <strong>LinkShare App</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        A personal digital card .
+      </p>
+      <img src="img/portfolio-01.jpg" alt="" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        The primary objective of LinkShare application is to build a section for
+        people to be able to gather all their social media links and personal
+        details and share them all together to other people,like a personal
+        digital card. LinkShare can be used from a developer or any other person
+        that wants to share his online presence with ease and boost his
+        networking.
+      </p>
+
+      <!-- <div class="project-img-wrapper">
+        <img src="img/portfolio-01.jpg" alt="" class="project_img" />
+        <img
+          src="img/portfolio-01-active-state.jpg"
+          alt=""
+          class="project_img"
+        />
+      </div> -->
+      <video controls>
+        <source src="https://www.loom.com/share/5a6d24a11225441a8d3b9cf6b23a8cb4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      
+
+      <p>
+        The technologies used were MongoDb with Mongoose,Express.js,React.js and
+        Node.js(MERN Stack),Cloudinary cloud for uploading and storing images and
+        FontAwesome library for icons. Also for styling I created my own custom 
+        library in CSS and applied it.
+      </p>
+      <div class="wrapper">
+        <a
+          href="https://link-share-elr8.onrender.com/"
+          class="btn"
+        >
+          Live site
+        </a>
+        <a
+          href="https://github.com/zitsko/LinkShare"
+          class="btn"
+        >
+          Source Code</a
+        >
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:kostaskotsis87@gmail.com" class="footer__link"
+        >kostaskotsis87@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/kostas-kotsis-b9595091/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/zitsko"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
-        
-        
-        <script src="js/index.js"></script>
-        
-    </body>
+
+    <script src="js/index.js"></script>
+  </body>
 </html>
