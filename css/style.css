@@ -86,7 +86,8 @@ strong { font-weight: var(--fw-bold) }
 }
 
 .btn:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
+    background-color: #1fd0b3;
 }
 
 /* Typography */
@@ -342,7 +343,7 @@ header {
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
-    transform: scale(1.12);
+    transform: scale(1.1);
     /* opacity: .85; */
 }
 
