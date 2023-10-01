@@ -1,76 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kostas Kotsis Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="../css/style.css">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kostas Kotsis Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
 
-    </head>
-    <body>
-        <header>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
-        </header>
-        
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
 
-        <section class="intro">
-            <h1 class="section__title section__title--intro">
-                <strong>Unit Converter</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">A metric/imperial unit converter. </p>
-            <img src="img/portfolio-02.jpg" alt="" class="intro__img">
-        </section>
-        
-        <div class="portfolio-item-individual">
-            <p>This project is part of the Frontend Developer Career Path solo projects from <a href="https://scrimba.com/learn/frontend" class="other-links">Scrimba</a>.
-                After examining the <a href="https://www.figma.com/file/NEj9JDycMjF3XKXq7swoc9/Random-Password-Generator-(New-version)?node-id=0%3A1" class="other-links">Figma prototype</a> 
-                that was designed for this project, I started writing the HTML and the CSS by creating variables for colors, fonts and borders in the root element and CSS Flexbox. Then I moved 
-                to JavaScript and writing the functions for the units to be converted. Finally, I connected the input field in the markup with the functions in JavaScript by manipulating the DOM.</p>
-                <div class="project-img-wrapper">
-                    <img src="img/portfolio-02.jpg" alt="" class="project_img">
-                    <img src="img/portfolio-02-active-state.jpg" alt="" class="project_img">
-                </div>
-            <p>The user has the ability to insert a number in the input field and see this number converted from metric to imperial system and vice versa for units of the quantities mass, volume and length.</p>
-                 <div class="wrapper">
-            <a href="https://zitsko.github.io/Unit-Converter-Scrimba-Solo-Project/" class="btn"> Live site </a>
-            <a href="https://github.com/zitsko/Unit-Converter-Scrimba-Solo-Project" class="btn"> Source Code</a>
-                </div>
-        </div>
-        
-        
-  <!-- Footer -->
-  <footer class="footer">
-    <a href="mailto:kostaskotsis87@gmail.com" class="footer__link">kostaskotsis87@gmail.com</a>
-    <ul class="social-list">
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        <strong>Workout Tracker</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Fitness Management
+      </p>
+      <img src="img/portfolio-02.jpg" alt="" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        The Workout Tracker App is a web application where fitness enthusiasts
+        can manage and track their workout progress. In the platform the user
+        create and customize a workout routine and take inspiration by searching
+        a workout library filled with exercises.
+      </p>
+      <!-- <div class="project-img-wrapper">
+        <img src="img/portfolio-02.jpg" alt="" class="project_img" />
+        <img
+          src="img/portfolio-02-active-state.jpg"
+          alt=""
+          class="project_img"
+        />
+      </div> -->
+      <div
+        style="
+          position: relative;
+          padding-bottom: 54.13533834586466%;
+          height: 0;
+        "
+      >
+        <iframe
+          src="https://www.loom.com/embed/b428067f730a4548876f4b87be0f6d1a?sid=dd5b017c-3380-4aad-8785-bcb2a6f75e34"
+          frameborder="0"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowfullscreen
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+        ></iframe>
+      </div>
+      <p>
+        The technologies used were MongoDb with Mongoose,Express.js,React.js and
+        Node.js(MERN Stack), and integration with the Ninza API.
+      </p>
+      <div class="wrapper">
+        <a href="https://workout-tracker-16f1.onrender.com" class="btn">
+          Live site
+        </a>
+        <a href="https://github.com/zitsko/workout-tracker-app" class="btn">
+          Source Code</a
+        >
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:kostaskotsis87@gmail.com" class="footer__link"
+        >kostaskotsis87@gmail.com</a
+      >
+      <ul class="social-list">
         <li class="social-list__item">
-            <a class="social-list__link" href="https://www.linkedin.com/in/kostas-kotsis-b9595091/" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/kostas-kotsis-b9595091/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
         </li>
         <li class="social-list__item">
-            <a class="social-list__link" href="https://github.com/zitsko" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
+          <a
+            class="social-list__link"
+            href="https://github.com/zitsko"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
         </li>
-    </ul>
-</footer>
-        
-        
-        <script src="js/index.js"></script>
-        
-    </body>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
 </html>

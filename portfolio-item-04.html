@@ -1,73 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kostas Kotsis Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/style.css">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kostas Kotsis Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
 
-    </head>
-    <body>
-        <header>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
-        </header>
-        
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
 
-        <section class="intro">
-            <h1 class="section__title section__title--intro">
-                <strong>M&B Engineers</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">Civil Engineers Office </p>
-            <img src="img/portfolio-04.jpg" alt="" class="intro__img">
-        </section>
-        
-        <div class="portfolio-item-individual">
-            <p>This is a website made for a Civil Engineer's Office where the user can obtain general information about the office,
-                 the projects made by the office, the people that work there, contact info and location. I build this site with collaboration with a friend of mine for the founder of Mnb-Engineers to help him showcase his work on the internet. For mnb.gr we used WordPress combined with Ocean WP for the theme, Elementor for building the larger part of the website and Unlimited Elements for Elementor to add interactive widgets like Flip Box for the business cards.
-                The site is secure for browsing since it is encrypted following the SSL protocol and has the necessary cookies for compliance with GDPR / CCPA. </p>
-                <div class="project-img-wrapper">
-                    <img src="img/portfolio-04-a.jpg" alt="" class="project_img">
-                    <img src="img/portfolio-04-b.jpg" alt="" class="project_img">
-                </div>
-                 <div class="wrapper">
-            <a href="https://mnb.gr/" class="btn"> Live site </a>
-                </div>
-        </div>
-        
-        
- <!-- Footer -->
- <footer class="footer">
-    <a href="mailto:kostaskotsis87@gmail.com" class="footer__link">kostaskotsis87@gmail.com</a>
-    <ul class="social-list">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        <strong>Comment Section</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Engaging conversations
+      </p>
+      <img src="img/portfolio-04.jpg" alt="" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        The Comment Section Component is a dynamic and interactive web
+        application built using React, designed to enhance user engagement
+        through real-time commenting. With this component, users can
+         add, edit, and delete comments, as well as engage in
+        conversations by replying to existing comments. The application also
+        displays user IDs and creation dates, offering a complete commenting
+        experience.        
+      </p>
+     
+      <div style="position: relative; padding-bottom: 56.25%; height: 0">
+        <iframe
+          src="https://www.loom.com/embed/8a220f34102b4f2292a3ed0914e8a86a?sid=29164348-c9e9-4035-bfce-537cbfd55166"
+          frameborder="0"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowfullscreen
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+        ></iframe>
+      </div>
+
+      <p>
+          The technologies used were MongoDb with
+            Mongoose,Express.js,React.js and Node.js(MERN Stack)
+      </p>
+
+      <div class="wrapper">
+        <a href="https://github.com/zitsko/interactive-comments-section" class="btn"> source code </a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:kostaskotsis87@gmail.com" class="footer__link"
+        >kostaskotsis87@gmail.com</a
+      >
+      <ul class="social-list">
         <li class="social-list__item">
-            <a class="social-list__link" href="https://www.linkedin.com/in/kostas-kotsis-b9595091/" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/kostas-kotsis-b9595091/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
         </li>
         <li class="social-list__item">
-            <a class="social-list__link" href="https://github.com/zitsko" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
+          <a
+            class="social-list__link"
+            href="https://github.com/zitsko"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
         </li>
-    </ul>
-</footer>
-        
-        
-        <script src="js/index.js"></script>
-        
-    </body>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
 </html>
